@@ -1,11 +1,9 @@
 {
   "name": "acil",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Emergency notifications for your NodeJS applications.",
   "main": "index.js",
   "scripts": {
     "test": "echo 'HOPS: implement me(tatsy)'"
-  },
-  "dependencies": {
   }
 }
