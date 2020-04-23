@@ -31,11 +31,6 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
-acil-shortcuts@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/acil-shortcuts/-/acil-shortcuts-0.0.1.tgz#aa799bf1aad29389675db379a9bd5e9495b836c3"
-  integrity sha512-B9wB9lp1xeegpTHmrrSxjFZ7IssJjFkEIH0jwTFYHNOom4xmyH1Yvmo7DwjIvawpikfN3oAB4tiOqSFqkkEvCw==
-
 ajv@^6.5.5:
   version "6.12.2"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.2.tgz#c629c5eced17baf314437918d2da88c99d5958cd"

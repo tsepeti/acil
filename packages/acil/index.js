@@ -1,10 +1,14 @@
 const Monitor = require('acil-monitor');
 const Emails = require('acil-emails');
 
-module.exports = () => {
-  const { send } = Emails();
+// shortcuts
+const { isProduction } = require('acil-shortcuts');
 
-  return Monitor((data) => {
+// XXX: is production then running Acil!!.
+if (isProduction) {
+  Monitor(data => {
+    const { send } = Emails();
+
     return send(data);
-  })
-};
+  });
+}
