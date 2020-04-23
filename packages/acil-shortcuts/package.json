@@ -1,0 +1,11 @@
+{
+  "name": "acil-shortcuts",
+  "version": "0.0.0",
+  "description": "Acil utils/shortcuts functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'HOPS: implement me(acil-shortcuts)'"
+  },
+  "dependencies": {
+  }
+}

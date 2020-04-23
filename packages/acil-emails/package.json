@@ -4,7 +4,10 @@
   "description": "Acil Emails for sendgrid.",
   "main": "index.js",
   "scripts": {
-		"test": "echo 'HOPS: implement me(acil-emails)'"
-	},
-  "dependencies": {}
+    "test": "echo 'HOPS: implement me(acil-emails)'"
+  },
+  "dependencies": {
+    "mjml": "^4.6.2",
+    "mustache": "^4.0.1"
+  }
 }

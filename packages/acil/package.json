@@ -4,7 +4,8 @@
   "description": "Emergency notifications for your NodeJS applications.",
   "main": "index.js",
   "scripts": {
-		"test": "echo 'HOPS: implement me(tatsy)'"
-	},
-  "dependencies": {}
+    "test": "echo 'HOPS: implement me(tatsy)'"
+  },
+  "dependencies": {
+  }
 }
