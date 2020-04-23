@@ -1,13 +1,13 @@
 {
   "name": "acil",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Emergency notifications for your NodeJS applications.",
   "main": "index.js",
   "scripts": {
     "test": "echo 'HOPS: implement me(tatsy)'"
   },
   "dependencies": {
-    "acil-emails": "^0.0.1",
-    "acil-monitor": "^0.0.1"
+    "acil-emails": "^0.0.2",
+    "acil-monitor": "^0.0.2"
   }
 }
