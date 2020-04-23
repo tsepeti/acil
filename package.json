@@ -1,0 +1,25 @@
+{
+  "name": "acil-monorepo",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Yasar icli <yasaricli@gmail.com>",
+  "scripts": {
+    "lerna:clean": "lerna clean --yes",
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:publish": "lerna publish",
+    "lerna:test": "lerna exec yarn test",
+    "doctoc:update": "doctoc README.md"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "doctoc": "^1.4.0",
+    "ghooks": "^2.0.4",
+    "lerna": "^3.20.2"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "yarn"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "acil-emails",
+  "version": "0.0.0",
+  "description": "Acil Emails for sendgrid.",
+  "main": "index.js",
+  "scripts": {
+		"test": "echo 'HOPS: implement me(acil-emails)'"
+	},
+  "dependencies": {}
+}

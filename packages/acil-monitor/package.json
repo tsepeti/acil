@@ -1,0 +1,10 @@
+{
+  "name": "acil-monitor",
+  "version": "0.0.0",
+  "description": "Acil Monitor for Forever.",
+  "main": "index.js",
+  "scripts": {
+		"test": "echo 'HOPS: implement me(acil-monitor)'"
+	},
+  "dependencies": {}
+}
