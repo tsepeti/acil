@@ -12,9 +12,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "jest": "^25.4.0",
     "doctoc": "^1.4.0",
     "ghooks": "^2.0.4",
+    "jest": "^25.4.0",
     "lerna": "^3.20.2"
   },
   "config": {
