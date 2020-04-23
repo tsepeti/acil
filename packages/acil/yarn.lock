@@ -7,10 +7,18 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
-acil-emails@../acil-emails/:
-  version "0.0.0"
+acil-emails@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/acil-emails/-/acil-emails-0.0.1.tgz#aaba744d8e6e0a3662ec34407a19f1c3e8717ab3"
+  integrity sha512-2yeQz7GfSp+LEyRjtdFOivWAssE/x2jUZC9M/j3kPCNCZEH1XXBQS75BpB3TbOyyh98pWv4R38C9cd1/0ijimw==
   dependencies:
     mjml "^4.6.2"
+    mustache "^4.0.1"
+
+acil-monitor@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/acil-monitor/-/acil-monitor-0.0.1.tgz#a7e9f69c2aef029c9280b7ec66fc9f330842a6df"
+  integrity sha512-c9RMI86KuHmiQqA21/igV1bAj0gCeU5L3eBvBZkfgtG7cENWze//I3M+rW9+yKH13Ehm7t17pQsr37cNogoEtQ==
 
 ajv@^6.5.5:
   version "6.12.2"
@@ -1178,6 +1186,11 @@ mkdirp@~1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
+
+mustache@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/mustache/-/mustache-4.0.1.tgz#d99beb031701ad433338e7ea65e0489416c854a2"
+  integrity sha512-yL5VE97+OXn4+Er3THSmTdCFCtx5hHWzrolvH+JObZnUYwuaG7XV+Ch4fR2cIrcYI0tFHxS7iyFYl14bW8y2sA==
 
 nice-try@^1.0.4:
   version "1.0.5"

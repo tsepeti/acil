@@ -5,5 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'HOPS: implement me(tatsy)'"
+  },
+  "dependencies": {
+    "acil-emails": "^0.0.1",
+    "acil-monitor": "^0.0.1"
   }
 }
