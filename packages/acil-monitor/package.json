@@ -5,5 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'HOPS: implement me(acil-monitor)'"
+  },
+  "dependencies": {
+    "forever-monitor": "^2.0.0"
   }
 }

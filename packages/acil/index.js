@@ -1,3 +1,10 @@
+const Monitor = require('acil-monitor');
 const Emails = require('acil-emails');
 
-console.log(Emails());
+module.exports = () => {
+  const { send } = Emails();
+
+  return Monitor((data) => {
+    return send(data);
+  })
+};
