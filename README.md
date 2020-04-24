@@ -25,6 +25,30 @@ Take a look at the following `acil.json` example:
 ```JS
 {
   // Each item in the list should be a tuple of (Full name, email address). Example:
-  "admins": ["Developer1 <developer1@company.com>", "Developer2 <developer2@company.com>"]
+  "admins": ["Developer1 <developer1@company.com>", "Developer2 <developer2@company.com>"],
+  
+  // !! Add it if you don't use Environment Variable (SENDGRID_API_KEY)
+  sendGridApiKey: "xxx"
+}
+```
+
+# Setup Environment Variables
+
+`Acil` is currently using **sendgrid** for `emails`. For this you need to create [SENDGRID_API_KEY](https://app.sendgrid.com/settings/api_keys).
+
+### Using Environment Variable
+
+    export SENDGRID_API_KEY=XXX
+
+### Using `acil.json`
+
+Add the line **sendGridApiKey** as follows:
+
+  
+```JS
+{
+  ...
+  
+  sendGridApiKey: "XXX"
 }
 ```
