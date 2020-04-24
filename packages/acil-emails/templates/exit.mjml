@@ -1,10 +1,23 @@
 <mjml>
-  <mj-body>
-    <mj-section>
+  <mj-body background-color="#F4F4F4" color="#55575d" font-family="Arial, sans-serif">
+    <mj-section background-color="#C1272D" background-repeat="repeat" padding="20px 0" text-align="center" vertical-align="top">
       <mj-column>
-        <mj-text>
-          {{ title }}
-        </mj-text>
+        <mj-text align="center" color="#FFF" font-family="Arial, sans-serif" font-size="30px" padding="0px 20px">Acil | Exit</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" background-repeat="repeat" background-size="auto" padding="20px 0px 20px 0px" text-align="center" vertical-align="top">
+      <mj-column>
+        <mj-text align="center" color="#55575d" font-family="Arial, sans-serif" font-size="14px" line-height="28px" padding="0px 25px 0px 25px"> {{ log }} </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#C1272D" background-repeat="repeat" padding="20px 0" text-align="center" vertical-align="top">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-family="Arial, sans-serif" font-size="13px" line-height="22px" padding="10px 25px"> <b>Acil</b> has created this email, you can check it on <a style="color:#ffffff" href="https://github.com/tsepeti/acil"><b> github.</b></a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-repeat="repeat" background-size="auto" padding="20px 0px 20px 0px" text-align="center" vertical-align="top">
+      <mj-column>
+        <mj-text align="center" color="#55575d" font-family="Arial, sans-serif" font-size="11px" line-height="22px" padding="0px 20px">© 2020 <b>Acil</bb></mj-text>
       </mj-column>
     </mj-section>
   </mj-body>

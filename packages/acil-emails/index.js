@@ -20,10 +20,14 @@ module.exports = (type, log) => {
     log,
   });
 
-  return console.log({
+  return Mail.send({
     to: admins,
     from: from,
     subject: `Acil - ${type}`,
     html,
-  });
+  }).then(() => {
+
+    // sended email
+    return console.log('Error email has been sent.');
+  })
 };
