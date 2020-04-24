@@ -39,10 +39,10 @@ accepts@~1.3.7:
     mime-types "~2.1.24"
     negotiator "0.6.2"
 
-acil-emails@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/acil-emails/-/acil-emails-0.0.4.tgz#4e6b1f133d1c00d43b9293c803c0d75bdb582b0c"
-  integrity sha512-BttKXeZQR/3LVNeTVez5pvm737X1K03WNiGQxjNKD4gapG/CXms+1f42FVndWIFWmIA3DZhcEg6hzWNnHPJ2DQ==
+acil-emails@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/acil-emails/-/acil-emails-0.0.5.tgz#3feac435bd8bb41c801c0364d0875a55a4e241b8"
+  integrity sha512-FJcNlXFak9iKKJVc3GpydUTPJ0/ZJOMqBbS+h2BFV6FXLGIma/WLsHRtoQVPquQAg5lBh6QfDzqqlrzofS40Ig==
   dependencies:
     "@sendgrid/mail" "^7.0.1"
     acil-shortcuts "^0.0.4"
@@ -62,10 +62,12 @@ acil-shortcuts@^0.0.4:
   resolved "https://registry.yarnpkg.com/acil-shortcuts/-/acil-shortcuts-0.0.4.tgz#eca994389e532958f0cbfa7690abf192c540fc5f"
   integrity sha512-tZuJFS7e+wKK79hUN3OBOoTtP0n6/spGOwr3Kg6ujdkvhrVaSuKuWIHCvS9MREMSnrogIXDGXMrFeaYUUiN+9w==
 
-acil@../packages/acil:
-  version "0.0.5"
+acil@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/acil/-/acil-0.0.6.tgz#49c2b53bb92e3e8ccae1c32969ff7de281f053c8"
+  integrity sha512-7G+dAPuDtv+l+xrPtGMRbSCClIDOUU5khx056KRaLr0GyEoWHr/JalsVyNGaJlvNpbhn46OTP8tQNYHhy+im7g==
   dependencies:
-    acil-emails "^0.0.4"
+    acil-emails "^0.0.5"
     acil-monitor "^0.0.4"
     acil-shortcuts "^0.0.4"
 
