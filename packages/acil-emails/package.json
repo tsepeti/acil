@@ -1,6 +1,6 @@
 {
   "name": "acil-emails",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Acil Emails for sendgrid.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@sendgrid/mail": "^7.0.1",
-    "acil-shortcuts": "^0.0.3",
+    "acil-shortcuts": "^0.0.4",
     "mjml": "^4.6.2",
     "mustache": "^4.0.1"
   }
