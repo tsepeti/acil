@@ -28,7 +28,7 @@ Take a look at the following `acil.json` example:
   "admins": ["Developer1 <developer1@company.com>", "Developer2 <developer2@company.com>"],
   
   // !! Add it if you don't use Environment Variable (SENDGRID_API_KEY)
-  sendGridApiKey: "xxx"
+  "sendGridApiKey": "xxx"
 }
 ```
 
@@ -49,6 +49,6 @@ Add the line **sendGridApiKey** as follows:
 {
   ...
   
-  sendGridApiKey: "XXX"
+  "sendGridApiKey": "XXX"
 }
 ```
