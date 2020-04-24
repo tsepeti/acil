@@ -7,8 +7,8 @@
     "test": "echo 'HOPS: implement me(tatsy)'"
   },
   "bin": {
-		"acil": "bin/acil"
-	},
+    "acil": "bin/acil"
+  },
   "dependencies": {
     "acil-emails": "^0.0.3",
     "acil-monitor": "^0.0.3",

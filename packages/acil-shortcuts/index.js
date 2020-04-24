@@ -1,8 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
+// env variables
 const { NODE_ENV, SENDGRID_API_KEY } = process.env;
 
+// Application is production boolean
 const isProduction = NODE_ENV === 'production';
 
 const ACIL_JSON = {
