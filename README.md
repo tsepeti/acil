@@ -2,7 +2,10 @@
 
 When we get **errors** for some of our applications, we have to `look`. But if you use **acil**, your mistakes will come to your **e-mail** address.
 
-## How to run
+## Getting Started
+
+Before we get started, you'll need to install Node and Yarn (or npm) and create a `package.json` for your project if you haven't already.
+
 
     yarn add acil
     
