@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+const Monitor = require('acil-monitor');
+const SendEmail = require('acil-emails');
+
+// watch file.
+const [file] = process.argv.slice(2);
+
+/*
+ * Monitor Nodejs application file.
+ */
+Monitor(file, (type, log) => {
+  return SendEmail(type, log);
+});

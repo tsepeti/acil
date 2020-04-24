@@ -6,8 +6,12 @@
   "scripts": {
     "test": "echo 'HOPS: implement me(tatsy)'"
   },
+  "bin": {
+		"acil": "bin/acil"
+	},
   "dependencies": {
     "acil-emails": "^0.0.3",
-    "acil-monitor": "^0.0.3"
+    "acil-monitor": "^0.0.3",
+    "acil-shortcuts": "^0.0.3"
   }
 }

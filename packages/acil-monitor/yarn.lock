@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-acil-shortcuts@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/acil-shortcuts/-/acil-shortcuts-0.0.1.tgz#aa799bf1aad29389675db379a9bd5e9495b836c3"
-  integrity sha512-B9wB9lp1xeegpTHmrrSxjFZ7IssJjFkEIH0jwTFYHNOom4xmyH1Yvmo7DwjIvawpikfN3oAB4tiOqSFqkkEvCw==
-
 anymatch@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-2.0.0.tgz#bcb24b4f37934d9aa7ac17b4adaf89e7c76ef2eb"
