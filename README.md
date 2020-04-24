@@ -19,10 +19,9 @@ For custom advanced behavior of **acil**, you can create a **acil.json** in the 
 
 Take a look at the following `acil.json` example:
 
-#### Each item in the list should be a tuple of (Full name, email address). Example:
-
-```JSON
+```JS
 {
+  // Each item in the list should be a tuple of (Full name, email address). Example:
   "admins": ["Developer1 <developer1@company.com>", "Developer2 <developer2@company.com>"]
 }
 ```
