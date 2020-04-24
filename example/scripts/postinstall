@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+cd node_modules
+
+# remove acil packages
+rm -rf acil acil-emails acil-monitor acil-shortcuts
+
+# Links acil packages
+ln -s ../../packages/acil .
+ln -s ../../packages/acil-monitor .
+ln -s ../../packages/acil-shortcuts .
+

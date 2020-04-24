@@ -4,10 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "acil index.js"
+    "start": "acil index.js",
+    "postinstall": "./scripts/postinstall"
   },
   "dependencies": {
-    "acil": "../acil/packages/acil",
+    "acil": "../packages/acil",
     "express": "^4.17.1"
   }
 }
