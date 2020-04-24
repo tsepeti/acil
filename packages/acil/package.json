@@ -1,6 +1,6 @@
 {
   "name": "acil",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Emergency notifications for your NodeJS applications.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "acil": "bin/acil"
   },
   "dependencies": {
-    "acil-emails": "^0.0.4",
+    "acil-emails": "^0.0.5",
     "acil-monitor": "^0.0.4",
     "acil-shortcuts": "^0.0.4"
   }

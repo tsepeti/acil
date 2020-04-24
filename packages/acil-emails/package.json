@@ -1,6 +1,6 @@
 {
   "name": "acil-emails",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Acil Emails for sendgrid.",
   "main": "index.js",
   "scripts": {
