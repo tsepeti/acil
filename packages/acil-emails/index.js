@@ -3,7 +3,7 @@ const Mustache = require('mustache');
 const Mail = require('@sendgrid/mail');
 
 // acil packages
-const { getMjml, getAcilJSON } = require('acil-shortcuts');
+const { getMjml, getAcilJSON, isProduction } = require('acil-shortcuts');
 
 const MJML_OPTIONS = {};
 
@@ -20,14 +20,20 @@ module.exports = (type, log) => {
     log,
   });
 
-  return Mail.send({
+  const sendData = {
     to: admins,
     from: from,
     subject: `Acil - ${type}`,
     html,
-  }).then(() => {
+  };
 
-    // sended email
-    return console.log('Error email has been sent.');
-  })
+  if (isProduction) {
+    return Mail.send(sendData).then(() => {
+
+      // sended email
+      return console.log('Error email has been sent.');
+    })
+  }
+
+  return console.log(sendData);
 };
