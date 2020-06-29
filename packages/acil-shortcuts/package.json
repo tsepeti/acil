@@ -1,6 +1,6 @@
 {
   "name": "acil-shortcuts",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Acil utils/shortcuts functions.",
   "main": "index.js",
   "scripts": {
