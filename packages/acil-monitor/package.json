@@ -1,6 +1,6 @@
 {
   "name": "acil-monitor",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Acil Monitor for Forever.",
   "main": "index.js",
   "scripts": {
