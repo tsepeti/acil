@@ -46,7 +46,7 @@ const getAbsoluteAppFile = name => {
 // run babel-node es6 scripts.
 const getBabelNodePath = () => {
   const nm = 'node_modules';
-  return `${nm}/.bin/babel-node`;
+  return `./${nm}/.bin/babel-node`;
 };
 
 const isErrorType = type => {
