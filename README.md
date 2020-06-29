@@ -18,7 +18,7 @@ When we get **errors** for some of our applications, we have to `look`. But if y
 Before we get started, you'll need to install Node and Yarn (or npm) and create a `package.json` for your project if you haven't already.
 
 
-    yarn add acil
+    yarn add acil @babel/node
     
 Open `package.json` and add the following scripts:
 
