@@ -1,6 +1,6 @@
 {
   "name": "acil",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Emergency notifications for your NodeJS applications.",
   "main": "index.js",
   "scripts": {
