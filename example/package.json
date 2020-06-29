@@ -7,7 +7,7 @@
     "start": "acil index.js"
   },
   "dependencies": {
-    "acil": "^0.0.6",
+    "acil": "../packages/acil",
     "express": "^4.17.1"
   }
 }

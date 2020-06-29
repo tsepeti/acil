@@ -39,37 +39,35 @@ accepts@~1.3.7:
     mime-types "~2.1.24"
     negotiator "0.6.2"
 
-acil-emails@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/acil-emails/-/acil-emails-0.0.5.tgz#3feac435bd8bb41c801c0364d0875a55a4e241b8"
-  integrity sha512-FJcNlXFak9iKKJVc3GpydUTPJ0/ZJOMqBbS+h2BFV6FXLGIma/WLsHRtoQVPquQAg5lBh6QfDzqqlrzofS40Ig==
+acil-emails@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/acil-emails/-/acil-emails-0.0.7.tgz#9f9bfd8b6fc98bbaea9fc234226f65c60faa6135"
+  integrity sha512-4Q4AGtb37dY7FkkpO9DQclVmBogE8HTsCHnlXsSRWUdZojnpIKP+YDUPMsPRWZw7WF6ZHWfWaBIw5gzGISd/Zw==
   dependencies:
     "@sendgrid/mail" "^7.0.1"
-    acil-shortcuts "^0.0.4"
+    acil-shortcuts "^0.0.6"
     mjml "^4.6.2"
     mustache "^4.0.1"
 
-acil-monitor@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/acil-monitor/-/acil-monitor-0.0.4.tgz#14f11f46896681a371d511803d7aa5735cc36f53"
-  integrity sha512-GJq5oHypUGHa3cvOR37XvhdMSfnRDjsJdjxQF8yKokshBijw7hKc1Vu8fBKFToxnjSktoo/F7Rv4CZi7AyYFTg==
+acil-monitor@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/acil-monitor/-/acil-monitor-0.0.6.tgz#3ee1bb859425884f4b0b91677778a609c28e77f0"
+  integrity sha512-r+IqlOqeCPlBikoTJiWcNbTe2mshIvnWM5W6TdwjdaTehyf/UH3f7BPnsKT0KGaMjNVwwf+cTyXVSieVVl2y+A==
   dependencies:
-    acil-shortcuts "^0.0.4"
+    acil-shortcuts "^0.0.6"
     forever-monitor "^2.0.0"
 
-acil-shortcuts@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/acil-shortcuts/-/acil-shortcuts-0.0.4.tgz#eca994389e532958f0cbfa7690abf192c540fc5f"
-  integrity sha512-tZuJFS7e+wKK79hUN3OBOoTtP0n6/spGOwr3Kg6ujdkvhrVaSuKuWIHCvS9MREMSnrogIXDGXMrFeaYUUiN+9w==
-
-acil@^0.0.6:
+acil-shortcuts@^0.0.6:
   version "0.0.6"
-  resolved "https://registry.yarnpkg.com/acil/-/acil-0.0.6.tgz#49c2b53bb92e3e8ccae1c32969ff7de281f053c8"
-  integrity sha512-7G+dAPuDtv+l+xrPtGMRbSCClIDOUU5khx056KRaLr0GyEoWHr/JalsVyNGaJlvNpbhn46OTP8tQNYHhy+im7g==
+  resolved "https://registry.yarnpkg.com/acil-shortcuts/-/acil-shortcuts-0.0.6.tgz#c87edfa6d0f3d15f63f3fcd71f2f56af33bc8063"
+  integrity sha512-TH5jQ7lGHF5KZy9/JVERh+yX52FweakUencZDs1u1zlxBjesu6vqfMNZtKt/jS+1KIG5p3/bLdG28vaci27O0A==
+
+acil@../packages/acil:
+  version "0.0.8"
   dependencies:
-    acil-emails "^0.0.5"
-    acil-monitor "^0.0.4"
-    acil-shortcuts "^0.0.4"
+    acil-emails "^0.0.7"
+    acil-monitor "^0.0.6"
+    acil-shortcuts "^0.0.6"
 
 ajv@^6.5.5:
   version "6.12.2"

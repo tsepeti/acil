@@ -10,9 +10,14 @@
     "acil": "bin/acil"
   },
   "dependencies": {
-    "acil-babel": "^0.0.2",
     "acil-emails": "^0.0.7",
     "acil-monitor": "^0.0.6",
     "acil-shortcuts": "^0.0.6"
+  },
+
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3"
   }
 }
