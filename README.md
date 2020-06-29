@@ -24,11 +24,17 @@ Take a look at the following `acil.json` example:
 
 ```JS
 {
+  "from": "Company Name <no-reply@company.com>",
+  
   // Each item in the list should be a tuple of (Full name, email address). Example:
   "admins": ["Developer1 <developer1@company.com>", "Developer2 <developer2@company.com>"],
   
   // !! Add it if you don't use Environment Variable (SENDGRID_API_KEY)
-  "sendGridApiKey": "xxx"
+  "sendGridApiKey": "xxx",
+  
+  "foreverOptions": {
+    // https://github.com/foreversd/forever-monitor#options-available-when-using-forever-in-nodejs
+  }
 }
 ```
 
