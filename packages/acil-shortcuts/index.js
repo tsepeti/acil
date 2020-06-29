@@ -14,7 +14,7 @@ const ACIL_JSON = {
   sendGridApiKey: SENDGRID_API_KEY,
 
   // forever options
-  foreverOptions: {}
+  foreverOptions: {},
 };
 
 const getMjml = (dir, name) => {

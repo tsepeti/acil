@@ -35,5 +35,5 @@ module.exports = (type, log) => {
     })
   }
 
-  return console.log(sendData);
+  return console.log(log);
 };
