@@ -21,6 +21,10 @@ module.exports = (file, callback) => {
     return callback('error', data.toString());
   });
 
+  app.on('stdout', data => {
+    console.log(data.toString());
+  });
+
   app.on('exit', () => {
     return callback('exit');
   });
