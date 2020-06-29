@@ -12,6 +12,9 @@ const ACIL_JSON = {
   admins: [],
   from: 'Company <company@gmail.com>',
   sendGridApiKey: SENDGRID_API_KEY,
+
+  // forever options
+  foreverOptions: {}
 };
 
 const getMjml = (dir, name) => {
