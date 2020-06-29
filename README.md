@@ -2,6 +2,17 @@
 
 When we get **errors** for some of our applications, we have to `look`. But if you use **acil**, your mistakes will come to your **e-mail** address.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+  - [Getting Started](#getting-started)
+- [Setup Environment Variables](#setup-environment-variables)
+    - [Using Environment Variable](#using-environment-variable)
+    - [Using `acil.json`](#using-aciljson)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Getting Started
 
 Before we get started, you'll need to install Node and Yarn (or npm) and create a `package.json` for your project if you haven't already.
