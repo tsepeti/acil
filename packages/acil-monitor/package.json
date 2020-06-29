@@ -1,13 +1,13 @@
 {
   "name": "acil-monitor",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Acil Monitor for Forever.",
   "main": "index.js",
   "scripts": {
     "test": "echo 'HOPS: implement me(acil-monitor)'"
   },
   "dependencies": {
-    "acil-shortcuts": "^0.0.6",
+    "acil-shortcuts": "^0.0.7",
     "forever-monitor": "^2.0.0"
   }
 }
