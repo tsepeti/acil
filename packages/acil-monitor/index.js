@@ -1,7 +1,11 @@
 const forever = require('forever-monitor');
 
 // acil packages
-const { getAbsoluteAppFile, getAcilJSON } = require('acil-shortcuts');
+const {
+  getAbsoluteAppFile,
+  getAcilJSON,
+  getBabelNodePath,
+} = require('acil-shortcuts');
 
 // acil.json
 const { foreverOptions } = getAcilJSON();
@@ -9,7 +13,7 @@ const { foreverOptions } = getAcilJSON();
 module.exports = (file, callback) => {
   const app = new forever.Monitor(getAbsoluteAppFile(file), {
     silent: true,
-    command: 'node -c node_modules/acil-babel/node_modules/.bin/babel-node',
+    command: `node -c ${getBabelNodePath()}`,
     ...foreverOptions,
   });
 

@@ -12,6 +12,7 @@
   "dependencies": {
     "acil-emails": "^0.0.6",
     "acil-monitor": "^0.0.5",
-    "acil-shortcuts": "^0.0.5"
+    "acil-shortcuts": "^0.0.5",
+    "acil-babel": "^0.0.1"
   }
 }

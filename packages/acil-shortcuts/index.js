@@ -43,6 +43,12 @@ const getAbsoluteAppFile = name => {
   return path.resolve(name);
 };
 
+// run babel-node es6 scripts.
+const getBabelNodePath = () => {
+  const nm = 'node_modules';
+  return `${nm}/acil/${nm}/acil-babel/${nm}/.bin/babel-node`;
+};
+
 const isErrorType = type => {
   return type == 'error';
 };
@@ -56,6 +62,7 @@ module.exports = {
   getMjml,
   getAcilJSON,
   getAbsoluteAppFile,
+  getBabelNodePath,
   isErrorType,
   isExitType,
 
