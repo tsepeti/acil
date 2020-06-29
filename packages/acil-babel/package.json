@@ -1,0 +1,15 @@
+{
+  "name": "acil-babel",
+  "version": "0.0.1",
+  "description": "Acil Babel Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'HOPS: implement me(acil-babel)'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3"
+  }
+}
