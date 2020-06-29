@@ -13,10 +13,5 @@
     "acil-emails": "^0.0.8",
     "acil-monitor": "^0.0.7",
     "acil-shortcuts": "^0.0.7"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.10.3",
-    "@babel/node": "^7.10.3",
-    "@babel/preset-env": "^7.10.3"
   }
 }
